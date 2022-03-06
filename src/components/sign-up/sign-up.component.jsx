@@ -11,15 +11,14 @@ import './sign-up.style.scss';
 class SignUp extends React.Component { 
     constructor() {
         super();
-
+    
         this.state = {
-            displayName: '',
-            email: '',
-            password: '',
-            confirmPassword: ''
-
-        }
-    };
+          displayName: '',
+          email: '',
+          password: '',
+          confirmPassword: ''
+        };
+      }
 
        handleSubmit = async event => {
             event.preventDefault();
