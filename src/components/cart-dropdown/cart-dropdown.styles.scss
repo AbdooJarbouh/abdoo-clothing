@@ -10,6 +10,13 @@
     top: 90px;
     right: 65px;
     z-index: 5;
+
+    .empty-massage { 
+      font-size:25px;
+      font-weight: bold;
+      margin: auto ;
+    }
+    
   
     .cart-items {
       height: 450px;
@@ -21,5 +28,6 @@
     button {
       margin-top: auto;
     }
+   
   }
   
